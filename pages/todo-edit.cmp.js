@@ -10,7 +10,6 @@ export default {
                 <button ref="btn">Save</button>
             </form>
         </section>
-        <pre>{{todoToEdit}}</pre>
     `,
     data() {
         return {
