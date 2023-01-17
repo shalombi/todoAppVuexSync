@@ -35,6 +35,7 @@ export default {
     },
     methods: {
         save() {
+            if (!this.todoToEdit.txt.length) return
             // todoService.save(this.todoToEdit)
             this.$store.commit({ type: "saveTodo", todo: this.todoToEdit })
 
